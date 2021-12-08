@@ -1,5 +1,5 @@
 # Learning to Expand Audience via Meta Hybrid Experts and Critics for Recommendation and Advertising
-This is an official implementation for **Learning to Expand Audience via Meta Hybrid Experts and Critics for Recommendation and Advertising** which has been accepted by KDD2021.
+This is an official implementation for **Learning to Expand Audience via Meta Hybrid Experts and Critics for Recommendation and Advertising** which has been published in KDD2021. [paper](https://arxiv.org/abs/2105.14688)
 
 ## Introduction
 
