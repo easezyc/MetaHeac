@@ -35,6 +35,8 @@ In this paper, to address these challenges, we propose a novel two-stage framewo
 We utilized the Tencent Look-alike Dataset. 
 To download the dataset, you can use the following link: [Tencent Look-alike Dataset](https://algo.qq.com/archive.html?). Then put the data in `./data`.
 
+The link of the propocessed dataset: [propocessed data](https://drive.google.com/file/d/11gXgf_yFLnbazjx24ZNb_Ry41MI5Ud1g/view?usp=sharing)
+
 You can use the following command to preprocess the dataset. 
 The final data will be under `./data/processed_data`.
 
@@ -62,7 +64,7 @@ python main.py --task_count 5 --num_expert 8 --output 5 --batchsize 512
 ## Reference
 
 ```
-Zhu Y, Liu Y, Xie R, et al. Learning to Expand Audience via Meta Hybrid Experts and Critics for Recommendation and Advertising[C]. KDD, 2021.
+Zhu, Yongchun, et al. "Learning to Expand Audience via Meta Hybrid Experts and Critics for Recommendation and Advertising." Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining. 2021.
 ```
 
 or in bibtex style:
@@ -71,7 +73,8 @@ or in bibtex style:
 @inproceedings{zhu2021learning,
   title={Learning to Expand Audience via Meta Hybrid Experts and Critics for Recommendation and Advertising},
   author={Zhu, Yongchun and Liu, Yudan and Xie, Ruobing and Zhuang, Fuzhen and Hao, Xiaobo and Ge, Kaikai and Zhang, Xu and Lin, Leyu and Cao, Juan},
-  booktitle={KDD},
+  booktitle={Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery \& Data Mining},
+  pages={4005--4013},
   year={2021}
 }
 ```
