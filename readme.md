@@ -58,7 +58,7 @@ Parameter Configuration:
 You can run this model through:
 
 ```powershell
-python main.py --task_count 5 --num_expert 8 --output 5 --batchsize 512
+python main.py --task_count 5 --num_expert 8 --num_output 5 --batchsize 512
 ```
 
 ## Reference
